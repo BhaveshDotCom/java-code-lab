@@ -1,6 +1,6 @@
-package OOPS.AccessModifiers;
+package OOPS.Encapsulation;
 
-public class AccessModifier {
+public class EncapsulationConcept {
 
     public static void main(String[] args) {
         BankAccount myAccount = new BankAccount();
