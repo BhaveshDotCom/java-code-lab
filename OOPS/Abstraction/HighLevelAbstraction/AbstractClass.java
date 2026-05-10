@@ -5,9 +5,8 @@ public class AbstractClass {
     public static void main(String[] args) {
 
         Device d1 = new Laptop();
-        Device d2 = new Smartphone();
-
         d1.turnOn();
+        Device d2 = new Smartphone();
         d2.turnOn();
     }
 }
@@ -16,6 +15,9 @@ public class AbstractClass {
 // Parent Class
 abstract class Device {
 
+    Device(){
+        System.out.println("Power On");
+    }
     void charge() {
         System.out.println("Device is charging...");
     }
