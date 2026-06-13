@@ -19,7 +19,7 @@ public class ConsoleInput {
         System.out.println("Output: "+stringInput);
 
         Scanner scan = new Scanner(System.in);
-        Scanner scan = new Scanner("Bhavesh Dot Com");
+        // Scanner scan = new Scanner("Bhavesh Dot Com");
         String myString = scan.next();
         System.out.println("Name: "+myString); 
 
