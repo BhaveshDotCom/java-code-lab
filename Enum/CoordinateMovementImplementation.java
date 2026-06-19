@@ -1,3 +1,5 @@
+package Enum;
+
 public class CoordinateMovementImplementation {
     public static void main(String[] args) {
 
