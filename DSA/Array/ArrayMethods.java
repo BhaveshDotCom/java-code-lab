@@ -2,7 +2,7 @@ package DSA.Array;
 
 import java.util.Arrays;
 
-public class ArrayMethodsDemo {
+public class ArrayMethods {
 
     public static void main(String[] args) {
 
