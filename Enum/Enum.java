@@ -16,7 +16,7 @@ enum Direction {
     SOUTH(180),
     WEST(270);
 
-    private int degree; 
+    private final int degree; 
 
     public int getDegree(){
         return this.degree;
